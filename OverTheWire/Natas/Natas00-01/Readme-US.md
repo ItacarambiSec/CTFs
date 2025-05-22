@@ -51,3 +51,15 @@ None — everything was done directly in the browser.
 
 Relying on JavaScript to hide sensitive information is a critical flaw.  
 Attackers can easily retrieve data exposed in the frontend, such as API keys, credentials, or internal logic, simply by viewing the source code — making this a real and dangerous client-side security risk.
+
+---
+
+## 📎 Developed Scripts
+
+This level served as a base for creating a script that automates the generation of folders for the upcoming levels (`Natas01-02` to `Natas33-34`), each containing their own `Readme-BR.md` and `Readme-US.md`.
+
+The script was designed to ensure structure, consistency, and productivity across the entire documentation process.  
+You can view or reuse the script directly in this folder:
+
+📁 `CTFs/OverTheWire/Natas/Natas0-1/criar_niveis_natas.sh`
+

@@ -45,7 +45,7 @@ This level highlights the importance of inspecting raw HTML in web-based challen
 
 None — everything was done directly in the browser.
 
---
+---
 
 ## 🧠 Observations
 

@@ -61,5 +61,5 @@ Este nível serviu como base para a criação de um script que automatiza a gera
 O script foi criado com o objetivo de manter a organização, padronização e produtividade durante a documentação.  
 Ele pode ser visualizado e reutilizado dentro desta pasta:
   
-📁 `CTFs/OverTheWire/Natas/Natas0-1/criar_niveis_natas.sh`
+📁 `CTFs/OverTheWire/Natas/Natas00-01/criar_niveis_natas.sh`
 

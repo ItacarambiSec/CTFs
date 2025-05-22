@@ -32,6 +32,10 @@ Access `http://natas0.natas.labs.overthewire.org` and find the password to advan
 
 ---
 
+## 🔑 Password Found
+
+---
+
 ## ✅ CONCLUSION
 
 - No tools or advanced techniques were needed.

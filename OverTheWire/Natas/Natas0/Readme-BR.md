@@ -1,7 +1,7 @@
 # 🕵️ Natas - Level 0  
-*Date:* 2024-05-22  
-*Difficulty:* Easy  
-*Category:* Web
+*Data:* 2024-05-22  
+*Dificuldade:* Easy  
+*Categoria:* Web
 
 ---
 

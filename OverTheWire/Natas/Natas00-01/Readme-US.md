@@ -1,4 +1,4 @@
-# 🕵️ Natas - Level 0-1 (🇺🇸 English)  
+# 🕵️ Natas - Level 00-01 (🇺🇸 English)  
 *Date:* 2025-05-22  
 *Difficulty:* Easy  
 *Category:* Web

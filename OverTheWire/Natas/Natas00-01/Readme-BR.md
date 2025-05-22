@@ -3,7 +3,6 @@
 *Dificuldade:* Fácil  
 *Categoria:* Web
 
----
 
 ## 🎯 OBJETIVO
 

@@ -13,7 +13,7 @@ Acessar `http://natas0.natas.labs.overthewire.org`, encontrar a senha para o pr�
 
 ## 🔎 ANÁLISE
 
-A página exibe: “You can find the password for the next level on this page.”  
+A página exibe: “Você pode encontrar a senha para o próximo nível nesta página.”  
 Não há formulários ou interações visíveis.  
 O desafio indica que a senha está na própria página.
 

@@ -13,7 +13,7 @@ Acessar a página `http://natas0.natas.labs.overthewire.org`, identificar onde e
 
 ## 🔎 ANÁLISE
 
-- A página inicial exibe a mensagem “This page contains nothing.”
+- A página inicial exibe a mensagem “Você pode encontrar a senha para o próximo nível nesta página.”
 - Não há elementos interativos nem campos de login.
 - A dica diz que a senha está na própria página.
 

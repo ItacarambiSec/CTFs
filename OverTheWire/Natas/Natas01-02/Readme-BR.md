@@ -7,7 +7,7 @@
 
 ## 🎯 OBJETIVO
 
-Acessar ´http://natas2.natas.labs.overthewire.org´, identificar o local onde a senha está armazenada e usá-la para avançar ao próximo nível.
+Acessar `http://natas2.natas.labs.overthewire.org`, identificar o local onde a senha está armazenada e usá-la para avançar ao próximo nível.
 
 ---
 
@@ -37,7 +37,9 @@ Acessar ´http://natas2.natas.labs.overthewire.org´, identificar o local onde a
 
 ## 🔑 SENHA ENCONTRADA
 
-**3gqisGdR0pjm6tpkDKdIWO2hSvchLeYH**
+```
+3gqisGdR0pjm6tpkDKdIWO2hSvchLeYH
+```
 
 ---
 

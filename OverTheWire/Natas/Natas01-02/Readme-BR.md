@@ -14,7 +14,7 @@ Acessar `http://natas2.natas.labs.overthewire.org`, identificar o local onde a s
 ## 🔎 ANÁLISE
 
 - Ao acessar a URL principal, o site exibe apenas a mensagem:  
-  **"There is nothing on this page"**.
+  **"Não há nada nesta página "**.
 - A página não apresenta elementos interativos nem conteúdo visível.
 - Com isso, partimos para a inspeção do **código-fonte HTML**.
 - No HTML, identificamos alguns scripts e uma imagem referenciada via:  

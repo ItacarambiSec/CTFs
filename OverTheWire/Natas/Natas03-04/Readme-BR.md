@@ -55,9 +55,9 @@ Este nível demonstra como o uso indevido do cabeçalho Referer pode ser contorn
 
 ## 🧪 COMANDOS UTILIZADOS
 
-`curl:` ferramenta de linha de comando para enviar requisições HTTP.
-`-u:` define o usuário e senha no formato usuario:senha.
-`-H:` permite adicionar um cabeçalho manual — neste caso, o Referer.
+`curl:` ferramenta de linha de comando para enviar requisições HTTP.  
+`-u:` define o usuário e senha no formato usuario:senha.  
+`-H:` permite adicionar um cabeçalho manual — neste caso, o Referer.  
 
 ---
 

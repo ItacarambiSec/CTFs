@@ -17,7 +17,7 @@ Access `http://natas6.natas.labs.overthewire.org` and retrieve the password to a
   A form with an input field that asks for a **secret value**.
 - The page doesn’t provide any hints directly, so we inspect the page source.
 - In the HTML source, we find a PHP snippet:
-```
+```php
   <?
   include "includes/secret.inc";
 

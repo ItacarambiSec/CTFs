@@ -34,7 +34,7 @@ Se não houver validação adequada, isso pode permitir a leitura de arquivos ar
 
 ## 🧱 ETAPAS
 
-1. Acessamos http://natas7.natas.labs.overthewire.org com as credenciais corretas.  
+1. Acessamos `http://natas7.natas.labs.overthewire.org` com as credenciais corretas.  
 2. Inspecionamos o código-fonte da página e observamos dois links baseados no parâmetro page.  
 3. Também encontramos um comentário com a localização do arquivo que contém a senha de natas8.  
 4. Suspeitamos de vulnerabilidade de inclusão local (LFI) no parâmetro page. 

@@ -54,9 +54,9 @@ Decisões de segurança nunca devem depender de valores que o usuário pode modi
 ## 🧪 COMANDOS UTILIZADOS
 
 
-`curl:` Ferramenta de linha de comando para enviar requisições HTTP.
-`-u:` Define o usuário e senha no formato usuario:senha.
-`-H:` Permite adicionar um cabeçalho manual — neste caso, um Cookie alterado.
+`curl:` Ferramenta de linha de comando para enviar requisições HTTP.  
+`-u:` Define o usuário e senha no formato usuario:senha.  
+`-H:` Permite adicionar um cabeçalho manual — neste caso, um Cookie alterado.  
 
 ---
 

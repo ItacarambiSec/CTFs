@@ -65,9 +65,3 @@ Nenhum comando via terminal foi necessário. A exploração foi feita diretament
 A tentativa de esconder diretórios apenas via `robots.txt` **não é uma medida de segurança** — é apenas uma sugestão para motores de busca.  
 Em um ambiente real, isso pode ser facilmente explorado por qualquer usuário com conhecimento básico.  
 É fundamental proteger esse tipo de recurso com autenticação ou controle de acesso adequado.
-
----
-
-## 🔁 NAVEGAÇÃO
-
-[⬅️ Nível 03-04](../Natas03-04/README.md) | [➡️ Nível 05-06](../Natas05-06/README.md)

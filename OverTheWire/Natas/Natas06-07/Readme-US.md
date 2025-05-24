@@ -28,7 +28,7 @@ Access `http://natas7.natas.labs.overthewire.org` and retrieve the password to a
 
 ---
 
-🧱 STEPS
+## 🧱 STEPS
 
 1. Accessed `http://natas7.natas.labs.overthewire.org` using the credentials from level 6.
 2. Inspected the page source and found links using the page parameter.

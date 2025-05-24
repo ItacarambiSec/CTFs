@@ -66,5 +66,5 @@ Ele pode ser visualizado e reutilizado dentro desta pasta:
 ---
 
 <p align="center">
-  <a href="../Natas01-02/Readme-US.md">Level 01–02 ➡️</a>
+  <a href="../Natas01-02/Readme-BR.md">Level 01–02 ➡️</a>
 </p>

@@ -64,3 +64,11 @@ Nenhum comando via terminal foi necessário. A exploração foi feita diretament
 A exposição de diretórios e arquivos sensíveis (como `users.txt`) é um risco sério.  
 Em ambientes reais, isso pode dar acesso a credenciais válidas, rotas de APIs, arquivos de configuração e até backups.  
 É crucial configurar corretamente as permissões de acesso e evitar a publicação de arquivos internos no ambiente de produção.
+
+---
+
+<p align="center">
+  <a href="../Natas00-01/Readme-BR.md">⬅️ Level 00–01</a> • 
+  <a href="../Natas02-03/Readme-BR.md">Level 02–03 ➡️</a>
+</p>
+

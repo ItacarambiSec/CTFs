@@ -40,7 +40,7 @@ $secret = "FOEIUWGHFEEUHOFUOIU";
 ?>
 ```
 - That’s clearly the expected input. After submitting it in the form, we receive:
-Access granted. The password for natas7 is bmg8SvU1LizuWjx3y7xkNERkHxGre0GS`
+`Access granted. The password for natas7 is bmg8SvU1LizuWjx3y7xkNERkHxGre0GS`
 
 🧱 STEPS
 

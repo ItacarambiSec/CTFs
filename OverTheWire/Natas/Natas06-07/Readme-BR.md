@@ -48,7 +48,6 @@ Se não houver validação adequada, isso pode permitir a leitura de arquivos ar
 
 ```
 lW0CNOOkm0oQ4JVBkJ9yuGe1n9rMil45
-
 ```
 
 ---

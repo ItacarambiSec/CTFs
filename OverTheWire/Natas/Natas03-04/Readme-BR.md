@@ -68,9 +68,6 @@ Em um ambiente real, o controle de acesso deve ser feito com base em autenticaç
 
 ---
 
----
-
----
 
 <p align="center">
   <a href="../Natas02-03/README.md">⬅️ Nível 02–03</a> • 

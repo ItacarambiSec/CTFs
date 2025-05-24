@@ -78,5 +78,4 @@ Boas práticas incluem:
 
 ---
 
-
-<p align="center"> <a href="../Natas05-06/Readme-BR.md">⬅️ Nível Anterior</a> • <a href="../Natas07-08/Readme-BR.md">Próximo Nível ➡️</a> </p> ```
+<p align="center"> <a href="../Natas05-06/Readme-BR.md">⬅️ Nível Anterior</a> • <a href="../Natas07-08/Readme-BR.md">Próximo Nível ➡️</a> </p>

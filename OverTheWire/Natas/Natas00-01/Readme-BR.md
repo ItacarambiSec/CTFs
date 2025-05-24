@@ -63,3 +63,8 @@ Ele pode ser visualizado e reutilizado dentro desta pasta:
   
 📁 `CTFs/OverTheWire/Natas/Natas00-01/criar_niveis_natas.sh`
 
+---
+
+<p align="center">
+  <a href="../Natas01-02/Readme-US.md">Level 01–02 ➡️</a>
+</p>

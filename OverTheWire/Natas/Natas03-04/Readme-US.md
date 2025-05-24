@@ -44,14 +44,14 @@ Referer: http://natas4.natas.labs.overthewire.org/index.php`
 0n35PkggAPm2zbEpOU802c0x0Msn1ToK
 ```
 
-## ✅ CONCLUSÃO
+## ✅ CONCLUSION
 
 This level shows how the misuse of the Referer header can be easily bypassed, reinforcing that HTTP headers should never be used as a security mechanism.
 
 
 ---
 
-## 🧪 COMANDOS UTILIZADOS
+## 🧪 COMMANDS USED
 
 `curl:` Command-line tool for making HTTP requests.  
 `-u:` Specifies the user and password in the format user:password.  
@@ -59,7 +59,7 @@ This level shows how the misuse of the Referer header can be easily bypassed, re
 
 ---
 
-## 🧠 Observações
+## 🧠 NOTES
 
 Relying on the Referer header for access control is a common security flaw. This header can be easily manipulated by any user using basic tools like curl, Postman, or browser extensions.
 In a real-world scenario, access control should be implemented using strong authentication, session tokens, or server-side validation.

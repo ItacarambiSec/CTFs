@@ -65,3 +65,11 @@ No terminal commands were needed. The exploration was conducted directly through
 Attempting to hide directories via `robots.txt` **is not a security measure** — it's merely a suggestion for search engines.  
 In a real environment, this can be easily explored by anyone with basic knowledge.  
 It's essential to protect this kind of resource with proper authentication or access control.
+
+---
+
+<p align="center">
+  <a href="../Natas01-02/Readme-US.md">⬅️ Level 01–02</a> • 
+  <a href="../Natas03-04/Readme-US.md">Level 03–04 ➡️</a>
+</p>
+

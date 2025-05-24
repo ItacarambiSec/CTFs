@@ -7,44 +7,35 @@
 
 ## 🎯 OBJETIVO
 
-Acessar `http://natas4.natas.labs.overthewire.org/`, entender a restrição de acesso imposta pelo servidor e encontrar a senha para o próximo nível.
+Acessar `http://natas4.natas.labs.overthewire.org` e obter a senha necessária para avançar ao nível 5.
 
 ---
 
 ## 🔎 ANÁLISE
 
-- Ao acessarmos diretamente a URL, mesmo após o login, recebemos a seguinte mensagem:
-
-  ```
-  Acesso não permitido. Você está acessando de "http://natas4.natas.labs.overthewire.org/index.php", enquanto usuários autorizados devem acessar apenas de "http://natas5.natas.labs.overthewire.org/".
-  ```
-
-- Essa mensagem indica que o acesso à página está sendo **filtrado com base no cabeçalho HTTP `Referer`** — um campo que informa de onde a requisição foi originada.
-- Ou seja, a aplicação só libera o conteúdo caso a requisição tenha vindo de `http://natas5.natas.labs.overthewire.org/`.
+- Ao acessar a URL, somos recebidos com a seguinte mensagem:
+- **Acesso não permitido. Você está acessando de `http://natas4.natas.labs.overthewire.org/index.php`, enquanto usuários autorizados devem acessar apenas de `http://natas5.natas.labs.overthewire.org/`.**
+- Além da observação, temos também um botão que nos permite atualizar a página através do arquivo ìndex.php, ao executar, ele puxa automaticamente o `Referer` da requisição
+- Isso sugere que o sistema utiliza o **cabeçalho HTTP `Referer`** como critério para permitir ou bloquear o acesso à página.
+- Ao investigar pelo **DevTools** do navegador (F12 > Aba "Network" > selecionando a requisição de `index.php`), podemos confirmar os seguintes headers da requisição:
+`Host: natas4.natas.labs.overthewire.org
+Referer: http://natas4.natas.labs.overthewire.org/index.php`
+- O site espera que a requisição venha de um referenciador externo (`http://natas5.natas.labs.overthewire.org/`), e não da própria URL.
 
 ---
 
 ## 🧱 ETAPAS
 
-1. Após observar o comportamento no navegador, acessamos o **DevTools (F12)** e navegamos até a aba **Network**.
-2. Lá, identificamos que o campo `Referer` na requisição estava apontando para:
-   ```
-   Referer: http://natas4.natas.labs.overthewire.org/index.php
-   ```
-3. Sabendo que podemos modificar cabeçalhos HTTP manualmente com a ferramenta `curl`, executamos o seguinte comando:
+1. Identificamos que o problema está no cabeçalho `Referer`, que deve ser manipulado.
+2. Usamos a ferramenta **`curl`** para enviar uma requisição personalizada com o `Referer` correto.
+3. Executamos o seguinte comando no terminal:
+```
+ curl http://natas4.natas.labs.overthewire.org/ \
+   -u natas4:QryZXc2e0zahULdHrtHxzyYkj59kUxLQ \
+   -H "Referer: http://natas5.natas.labs.overthewire.org/"
+```
 
-   ```bash
-   curl http://natas4.natas.labs.overthewire.org/ \
-     -u natas4:QryZXc2e0zahULdHrtHxzyYkj59kUxLQ \
-     -H "Referer: http://natas5.natas.labs.overthewire.org/"
-   ```
-
-4. Explicação dos argumentos:
-   - `curl` → ferramenta de requisição HTTP
-   - `-u user:senha` → autenticação básica
-   - `-H` → define um cabeçalho HTTP customizado (no caso, o `Referer`)
-
-5. Com isso, burlamos a verificação do servidor, que validava se o acesso "veio" da URL esperada.
+4. Ao executar, temos: `Access granted. The password for natas5 is 0n35PkggAPm2zbEpOU802c0x0Msn1ToK`
 
 ---
 
@@ -58,23 +49,19 @@ Acessar `http://natas4.natas.labs.overthewire.org/`, entender a restrição de a
 
 ## ✅ CONCLUSÃO
 
-Este nível introduz a manipulação de cabeçalhos HTTP — uma técnica simples, porém poderosa.  
-O cabeçalho `Referer` é facilmente falsificável e, portanto, **não deve ser usado como método de autenticação ou controle de acesso em aplicações reais**.
+Este nível demonstra como o uso indevido do cabeçalho Referer pode ser contornado com facilidade, o que reforça que cabeçalhos HTTP não devem ser utilizados como mecanismo de segurança.
 
 ---
 
 ## 🧪 COMANDOS UTILIZADOS
 
-```bash
-curl http://natas4.natas.labs.overthewire.org/ \
-  -u natas4:QryZXc2e0zahULdHrtHxzyYkj59kUxLQ \
-  -H "Referer: http://natas5.natas.labs.overthewire.org/"
-```
+`curl:` ferramenta de linha de comando para enviar requisições HTTP.
+`-u:` define o usuário e senha no formato usuario:senha.
+`-H:` permite adicionar um cabeçalho manual — neste caso, o Referer.
 
 ---
 
 ## 🧠 Observações
 
-Usar cabeçalhos HTTP como critério para liberar funcionalidades é uma prática insegura.  
-Em contextos reais, isso pode ser explorado por qualquer atacante com conhecimento básico de requisições HTTP.  
-A segurança de endpoints deve sempre envolver **validações no servidor**, como autenticação forte, tokens, ou permissões baseadas em sessão.
+Confiar no Referer para validar acesso é uma falha comum de segurança. Esse cabeçalho pode ser facilmente manipulado por qualquer usuário com ferramentas simples como curl, Postman ou extensões de navegador.
+Em um ambiente real, o controle de acesso deve ser feito com base em autenticação robusta, tokens de sessão ou validação no lado do servidor.

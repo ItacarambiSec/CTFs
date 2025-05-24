@@ -69,6 +69,6 @@ Em aplicações reais, o controle de autenticação e autorização deve ser fei
 
 
 <p align="center">
-  <a href="../Natas03-04/Readme-BR.md">⬅️ Level 02–03</a> • 
-  <a href="../Natas05-06/Readme-BR.md">Level 04–05 ➡️</a>
+  <a href="../Natas03-04/Readme-BR.md">⬅️ Anterior</a> • 
+  <a href="../Natas05-06/Readme-BR.md">Próximo ➡️</a>
 </p>

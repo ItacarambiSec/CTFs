@@ -63,3 +63,8 @@ You can view or reuse the script directly in this folder:
 
 📁 `CTFs/OverTheWire/Natas/Natas0-1/criar_niveis_natas.sh`
 
+---
+
+<p align="center">
+  <a href="../Natas01-02/Readme-US.md">Level 01–02 ➡️</a>
+</p>

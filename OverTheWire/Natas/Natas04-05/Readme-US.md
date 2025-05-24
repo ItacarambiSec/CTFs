@@ -70,6 +70,6 @@ In real-world applications, authentication and access control must be handled on
 
 
 <p align="center">
-  <a href="../Natas03-04/Readme-US.md">⬅️ Level 02–03</a> • 
-  <a href="../Natas05-06/Readme-US.md">Level 04–05 ➡️</a>
+  <a href="../Natas03-04/Readme-US.md">⬅️ Previous/a> • 
+  <a href="../Natas05-06/Readme-US.md">Next ➡️</a>
 </p>

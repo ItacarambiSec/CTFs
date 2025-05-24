@@ -70,8 +70,8 @@ Em um ambiente real, o controle de acesso deve ser feito com base em autenticaç
 
 
 <p align="center">
-  <a href="../Natas02-03/Readme-US.md">⬅️ Level 02–03</a> • 
-  <a href="../Natas04-05/Readme-US.md">Level 04–05 ➡️</a>
+  <a href="../Natas02-03/Readme-BR.md">⬅️ Level 02–03</a> • 
+  <a href="../Natas04-05/Readme-BR.md">Level 04–05 ➡️</a>
 </p>
 
 

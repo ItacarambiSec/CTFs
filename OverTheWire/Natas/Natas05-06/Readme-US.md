@@ -39,7 +39,8 @@ Access `http://natas6.natas.labs.overthewire.org` and retrieve the password to a
 $secret = "FOEIUWGHFEEUHOFUOIU";
 ?>
 ```
-- **Access granted. The password for natas7 is bmg8SvU1LizuWjx3y7xkNERkHxGre0GS**
+- That’s clearly the expected input. After submitting it in the form, we receive:
+`**Access granted. The password for natas7 is bmg8SvU1LizuWjx3y7xkNERkHxGre0GS**`
 
 🧱 STEPS
 

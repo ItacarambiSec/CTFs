@@ -42,9 +42,11 @@ $secret = "FOEIUWGHFEEUHOFUOIU";
 - That’s clearly the expected input. After submitting it in the form, we receive:
 `Access granted. The password for natas7 is bmg8SvU1LizuWjx3y7xkNERkHxGre0GS`
 
+---
+
 🧱 STEPS
 
-1. Accessed http://natas6.natas.labs.overthewire.org and noticed a form requesting a "secret".  
+1. Accessed `http://natas6.natas.labs.overthewire.org` and noticed a form requesting a "secret".  
 2. Viewed the page source and found a PHP script including includes/secret.inc.  
 3. Realized that the variable $secret was defined in that file.  
 4. Accessed the file directly via the browser at /includes/secret.inc and found the secret value: FOEIUWGHFEEUHOFUOIU.  

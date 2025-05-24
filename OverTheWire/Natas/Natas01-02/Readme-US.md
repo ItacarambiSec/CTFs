@@ -64,3 +64,11 @@ No terminal commands were necessary. The exploration was conducted directly via 
 Exposing directories and sensitive files (like `users.txt`) is a serious risk.  
 In real environments, this could grant access to valid credentials, API routes, configuration files, and even backups.  
 It is crucial to properly configure access permissions and avoid publishing internal files in production environments.
+
+---
+
+<p align="center">
+  <a href="../Natas00-01/Readme-US.md">⬅️ Level 00–01</a> • 
+  <a href="../Natas02-03/Readme-US.md">Level 02–03 ➡️</a>
+</p>
+

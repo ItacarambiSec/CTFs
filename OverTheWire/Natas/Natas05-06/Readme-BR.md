@@ -46,7 +46,7 @@ $secret = "FOEIUWGHFEEUHOFUOIU";
 
 ## 🧱 ETAPAS
 
-1. Acessamos a URL http://natas6.natas.labs.overthewire.org e identificamos um formulário solicitando um “segredo”.  
+1. Acessamos a URL `http://natas6.natas.labs.overthewire.org` e identificamos um formulário solicitando um “segredo”.  
 2. Ao inspecionar o código-fonte da página, encontramos um script PHP que incluía o arquivo includes/secret.inc.  
 3. Percebemos que a variável $secret estava definida dentro desse arquivo.  
 4. cessamos diretamente o caminho includes/secret.inc via navegador e obtivemos o valor real da variável: FOEIUWGHFEEUHOFUOIU. 

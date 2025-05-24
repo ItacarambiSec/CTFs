@@ -72,8 +72,8 @@ Reforça também a importância de controlar o acesso a diretórios e arquivos s
 ## 🧪 COMANDOS UTILIZADOS
 
 
-Nenhum comando via terminal foi necessário neste nível.
-Todos os passos foram realizados diretamente no navegador:
+Nenhum comando via terminal foi necessário neste nível.  
+Todos os passos foram realizados diretamente no navegador  
 
 ---
 

@@ -57,10 +57,10 @@ lW0CNOOkm0oQ4JVBkJ9yuGe1n9rMil45
 Este nível demonstra uma vulnerabilidade crítica: inclusão arbitrária de arquivos via parâmetro GET.
 Falhas como essa permitem que usuários leiam arquivos sensíveis do sistema, comprometendo totalmente a aplicação.
 É essencial validar e sanitizar qualquer entrada de usuário que seja usada para incluir ou carregar conteúdo.
+
 ---
 
 ## 🧪 COMANDOS UTILIZADOS
-
 
 Nenhum comando via terminal foi necessário neste nível.  
 Todos os passos foram realizados diretamente no navegador  

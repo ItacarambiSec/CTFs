@@ -53,9 +53,9 @@ This level shows how the misuse of the Referer header can be easily bypassed, re
 
 ## 🧪 COMANDOS UTILIZADOS
 
-`curl:` Command-line tool for making HTTP requests.
-`-u:` Specifies the user and password in the format user:password.
-`-H:` Allows adding a custom header — in this case, the Referer.
+`curl:` Command-line tool for making HTTP requests.  
+`-u:` Specifies the user and password in the format user:password.  
+`-H:` Allows adding a custom header — in this case, the Referer.  
 
 ---
 

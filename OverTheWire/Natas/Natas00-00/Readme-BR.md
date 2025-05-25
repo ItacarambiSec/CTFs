@@ -57,3 +57,7 @@ Nenhum — análise realizada apenas via navegador.
 
 Todos os níveis do Natas contêm a senha do próximo nível.  
 O objetivo é encontrá-la explorando brechas ou omissões no design web.
+
+---
+
+<p align="center"> Proximo </a> • <a href="../Natas00-01/Readme-BR.md">Next ➡️</a>

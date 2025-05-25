@@ -68,4 +68,4 @@ Ele pode ser visualizado e reutilizado dentro desta pasta:
 <p align="center"> <a href="../Natas00/Readme-BR.md">⬅️ Anterior</a> • <a href="../Natas02/Readme-BR.md">Proximo ➡️</a> </p>
 
 
-<p align="center"> <a href=".././../../../Projects/Scripts/Readme.md">⬅️ teste</a>
+<p align="center"> <a href=".././../../../">⬅️ teste</a>

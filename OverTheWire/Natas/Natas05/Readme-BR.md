@@ -1,4 +1,4 @@
-# 🕵️ Natas - Nível 04–05 (🇧🇷 Português)  
+# 🕵️ Natas - Nível 05 (🇧🇷 Português)  
 *Data:* 24/05/2025  
 *Dificuldade:* Fácil  
 *Categoria:* Web
@@ -69,6 +69,6 @@ Em aplicações reais, o controle de autenticação e autorização deve ser fei
 
 
 <p align="center">
-  <a href="../Natas03-04/Readme-BR.md">⬅️ Anterior</a> • 
-  <a href="../Natas05-06/Readme-BR.md">Próximo ➡️</a>
+  <a href="../Natas04/Readme-BR.md">⬅️ Anterior</a> • 
+  <a href="../Natas06/Readme-BR.md">Próximo ➡️</a>
 </p>

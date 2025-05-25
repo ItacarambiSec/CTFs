@@ -1,4 +1,4 @@
-# 🕵️ Natas - Level 00-00 (🇺🇸 English)  
+# 🕵️ Natas - Level 00 (🇺🇸 English)  
 *Date:* 2025-05-22  
 *Difficulty:* Easy  
 *Category:* Web
@@ -59,4 +59,4 @@ Every Natas level contains the password to the next level somewhere, often using
 
 ---
 
-<p align="center"> <a href="../Natas00-01/Readme-US.md">Next ➡️</a>
+<p align="center"> <a href="../Natas01/Readme-US.md">Next ➡️</a>

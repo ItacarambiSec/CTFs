@@ -59,4 +59,4 @@ Every Natas level contains the password to the next level somewhere, often using
 
 ---
 
-<p align="center"> <a href="../Natas00-01/Readme-US.md">Proximo ➡️</a>
+<p align="center"> <a href="../Natas00-01/Readme-US.md">Next ➡️</a>

@@ -56,3 +56,7 @@ None — basic browser navigation only.
 ## 🧠 Notes
 
 Every Natas level contains the password to the next level somewhere, often using security flaws or hidden hints.
+
+---
+
+<p align="center"> <a href="../Natas00-01/Readme-US.md">Proximo ➡️</a>

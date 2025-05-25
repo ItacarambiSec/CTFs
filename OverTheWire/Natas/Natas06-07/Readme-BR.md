@@ -47,7 +47,7 @@ Se não houver validação adequada, isso pode permitir a leitura de arquivos ar
 ## 🔑 SENHA ENCONTRADA
 
 ```
-lW0CNOOkm0oQ4JVBkJ9yuGe1n9rMil45
+xcoXLmzMkoIP9D7hlgPlh9XD7OgLAe5Q
 ```
 
 ---

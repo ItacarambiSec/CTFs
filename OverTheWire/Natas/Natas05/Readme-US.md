@@ -1,4 +1,4 @@
-# 🕵️ Natas - Level 04–05 (🇺🇸 English)  
+# 🕵️ Natas - Level 05 (🇺🇸 English)  
 *Date:* 2025-05-24  
 *Difficulty:* Easy  
 *Category:* Web
@@ -70,6 +70,6 @@ In real-world applications, authentication and access control must be handled on
 
 
 <p align="center">
-  <a href="../Natas03-04/Readme-US.md">⬅️ Previous</a> • 
-  <a href="../Natas05-06/Readme-US.md"> Next ➡️</a>
+  <a href="../Natas04/Readme-US.md">⬅️ Previous</a> • 
+  <a href="../Natas06/Readme-US.md"> Next ➡️</a>
 </p>

@@ -1,1 +1,64 @@
-# 🕵️ Natas - Nível 27-28 (🇧🇷 Português)
+# 🕵️ Natas - Nível 28 (🇧🇷 Português)  
+*Data:*  
+*Dificuldade:*   
+*Categoria:* 
+
+---
+
+## 🎯 Objetivo
+
+
+
+---
+
+## 🔎 Análise
+
+-
+-
+-
+-
+-
+
+---
+
+## 🧱 Etapas
+
+1.
+2.
+3.
+4.
+5.
+
+---
+
+## 🔑 Senha Encontrada
+
+
+
+---
+
+## ✅ Conclusão
+
+
+
+---
+
+## 🧪 Comandos Utilizados
+
+
+
+---
+
+## 🧠 Observações
+
+
+
+---
+
+## 📎 Scripts desenvolvidos
+
+
+
+---
+
+<p align="center"> <a href="../Natas27/Readme-BR.md">⬅️ Anterior</a> • <a href="../Natas29/Readme-BR.md">Proximo ➡️</a> </p>

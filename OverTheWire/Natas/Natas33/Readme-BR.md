@@ -1,1 +1,64 @@
-# 🕵️ Natas - Nível 32-33 (🇧🇷 Português)
+# 🕵️ Natas - Nível 33 (🇧🇷 Português)  
+*Data:*  
+*Dificuldade:*   
+*Categoria:* 
+
+---
+
+## 🎯 Objetivo
+
+
+
+---
+
+## 🔎 Análise
+
+-
+-
+-
+-
+-
+
+---
+
+## 🧱 Etapas
+
+1.
+2.
+3.
+4.
+5.
+
+---
+
+## 🔑 Senha Encontrada
+
+
+
+---
+
+## ✅ Conclusão
+
+
+
+---
+
+## 🧪 Comandos Utilizados
+
+
+
+---
+
+## 🧠 Observações
+
+
+
+---
+
+## 📎 Scripts desenvolvidos
+
+
+
+---
+
+<p align="center"> <a href="../Natas32/Readme-BR.md">⬅️ Anterior</a> • <a href="../Natas34/Readme-BR.md">Proximo ➡️</a> </p>

@@ -74,5 +74,5 @@ To prevent this:
 
 ---
 
+<p align="center"> <a href="../Natas05-06/Readme-US.md">⬅️ Previous</a> • <a href="../Natas07-08/Readme-US.md">Next ➡️</a> </p>
 
-<p align="center"> <a href="../Natas00-01/Readme-US.md">Proximo ➡️</a>

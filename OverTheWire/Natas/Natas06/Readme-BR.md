@@ -1,4 +1,4 @@
-# 🕵️ Natas - Nível 05–06 (🇧🇷 Português)  
+# 🕵️ Natas - Nível 06 (🇧🇷 Português)  
 *Data:* 24/05/2025  
 *Dificuldade:* Fácil  
 *Categoria:* Web
@@ -85,4 +85,4 @@ Em ambientes reais, deixar arquivos como .inc ou .php acessíveis publicamente �
 ---
 
 
-<p align="center"> <a href="../Natas04-05/Readme-BR.md">⬅️ Nível Anterior</a> • <a href="../Natas06-07/Readme-BR.md">Próximo Nível ➡️</a> </p> 
+<p align="center"> <a href="../Natas05/Readme-BR.md">⬅️ Nível Anterior</a> • <a href="../Natas07/Readme-BR.md">Próximo Nível ➡️</a> </p> 

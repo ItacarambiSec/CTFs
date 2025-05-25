@@ -69,7 +69,7 @@ It's essential to protect this kind of resource with proper authentication or ac
 ---
 
 <p align="center">
-  <a href="../Natas01-02/Readme-US.md">⬅️ Level 01–02</a> • 
-  <a href="../Natas03-04/Readme-US.md">Level 03–04 ➡️</a>
+  <a href="../Natas02/Readme-US.md">⬅️ Previous</a> • 
+  <a href="../Natas04/Readme-US.md">Next ➡️</a>
 </p>
 

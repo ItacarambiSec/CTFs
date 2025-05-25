@@ -68,7 +68,7 @@ It is crucial to properly configure access permissions and avoid publishing inte
 ---
 
 <p align="center">
-  <a href="../Natas01/Readme-US.md">⬅️ Level 00–01</a> • 
-  <a href="../Natas03/Readme-US.md">Level 02–03 ➡️</a>
+  <a href="../Natas01/Readme-US.md">⬅️ Previous</a> • 
+  <a href="../Natas03/Readme-US.md">Next ➡️</a>
 </p>
 

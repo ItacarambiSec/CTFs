@@ -65,6 +65,4 @@ You can view or reuse the script directly in this folder:
 
 ---
 
-<p align="center">
-  <a href="../Natas01-02/Readme-US.md">Level 01–02 ➡️</a>
-</p>
+<p align="center"> <a href="../Natas00-00/Readme-US.md">⬅️ Previous</a> • <a href="../Natas01-02/Readme-US.md">Next ➡️</a> </p>

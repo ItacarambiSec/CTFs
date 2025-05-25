@@ -1,4 +1,4 @@
-# 🕵️ Natas - Nível 06–07 (🇧🇷 Português)  
+# 🕵️ Natas - Nível 07 (🇧🇷 Português)  
 *Data:* 24/05/2025  
 *Dificuldade:* Fácil  
 *Categoria:* Web
@@ -78,4 +78,4 @@ Boas práticas incluem:
 
 ---
 
-<p align="center"> <a href="../Natas05-06/Readme-BR.md">⬅️ Nível Anterior</a> • <a href="../Natas07-08/Readme-BR.md">Próximo Nível ➡️</a> </p>
+<p align="center"> <a href="../Natas06/Readme-BR.md">⬅️ Nível Anterior</a> • <a href="../Natas08/Readme-BR.md">Próximo Nível ➡️</a> </p>

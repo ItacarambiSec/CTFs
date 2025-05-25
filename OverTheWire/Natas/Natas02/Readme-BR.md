@@ -68,7 +68,7 @@ Em ambientes reais, isso pode dar acesso a credenciais válidas, rotas de APIs, 
 ---
 
 <p align="center">
-  <a href="../Natas01/Readme-BR.md">⬅️ Level 00–01</a> • 
-  <a href="../Natas03/Readme-BR.md">Level 02–03 ➡️</a>
+  <a href="../Natas01/Readme-BR.md">⬅️ Anterior</a> • 
+  <a href="../Natas03/Readme-BR.md">Proximo ➡️</a>
 </p>
 

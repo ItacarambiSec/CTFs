@@ -1,4 +1,4 @@
-# 🕵️ Natas - Nível 00-00 (🇧🇷 Português)  
+# 🕵️ Natas - Nível 00 (🇧🇷 Português)  
 *Data:* 22/05/2025  
 *Dificuldade:* Fácil  
 *Categoria:* Web
@@ -60,4 +60,4 @@ O objetivo é encontrá-la explorando brechas ou omissões no design web.
 
 ---
 
-<p align="center"> <a href="../Natas00-01/Readme-BR.md">Proximo ➡️</a>
+<p align="center"> <a href="../Natas01/Readme-BR.md">Proximo ➡️</a>

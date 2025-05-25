@@ -60,4 +60,4 @@ O objetivo é encontrá-la explorando brechas ou omissões no design web.
 
 ---
 
-<p align="center"> href="../Natas00-01/Readme-BR.md">Proximo ➡️</a>
+<p align="center"> href="../Natas00-01/Readme-BR.md">Next ➡️</a>

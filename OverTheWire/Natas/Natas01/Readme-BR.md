@@ -1,4 +1,4 @@
-# 🕵️ Natas - Nível 00-01 (🇧🇷 Português)  
+# 🕵️ Natas - Nível 01 (🇧🇷 Português)  
 *Data:* 22/05/2025  
 *Dificuldade:* Fácil  
 *Categoria:* Web
@@ -65,4 +65,4 @@ Ele pode ser visualizado e reutilizado dentro desta pasta:
 
 ---
 
-<p align="center"> <a href="../Natas00-00/Readme-BR.md">⬅️ Anterior</a> • <a href="../Natas01-02/Readme-BR.md">Proximo ➡️</a> </p>
+<p align="center"> <a href="../Natas00/Readme-BR.md">⬅️ Anterior</a> • <a href="../Natas02/Readme-BR.md">Proximo ➡️</a> </p>

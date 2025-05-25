@@ -7,7 +7,7 @@
 
 ## 🎯 OBJETIVO
 
-Acessar `http://natas0.natas.labs.overthewire.org`, contornar a limitação imposta pelo site e encontrar a senha para avançar ao próximo nível.
+Acessar `http://natas1.natas.labs.overthewire.org`, contornar a limitação imposta pelo site e encontrar a senha para avançar ao próximo nível.
 
 ---
 

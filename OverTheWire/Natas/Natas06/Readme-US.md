@@ -1,4 +1,4 @@
-# 🕵️ Natas - Level 05–06 (🇺🇸 English)  
+# 🕵️ Natas - Level 06 (🇺🇸 English)  
 *Date:* 2025-05-24  
 *Difficulty:* Easy  
 *Category:* Web
@@ -86,4 +86,4 @@ Such files should be protected via server configuration (e.g., .htaccess, NGINX 
 ---
 
 
-<p align="center"> <a href="../Natas04-05/Readme-US.md">⬅️ Previous</a> • <a href="../Natas06-07/Readme-US.md">Next ➡️</a> </p> 
+<p align="center"> <a href="../Natas05/Readme-US.md">⬅️ Previous</a> • <a href="../Natas07/Readme-US.md">Next ➡️</a> </p> 

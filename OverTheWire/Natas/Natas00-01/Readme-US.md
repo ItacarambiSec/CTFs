@@ -7,7 +7,7 @@
 
 ## 🎯 OBJECTIVE
 
-Access `http://natas0.natas.labs.overthewire.org`, bypass the restriction applied by the site, and find the password to proceed to the next level.
+Access `http://natas1.natas.labs.overthewire.org`, bypass the restriction applied by the site, and find the password to proceed to the next level.
 
 ---
 

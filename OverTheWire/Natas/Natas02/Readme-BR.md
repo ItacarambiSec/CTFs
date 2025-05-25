@@ -1,4 +1,4 @@
-# 🕵️ Natas - Nível 01-02 (🇧🇷 Português)  
+# 🕵️ Natas - Nível 02 (🇧🇷 Português)  
 *Data:* 22/05/2025  
 *Dificuldade:* Fácil  
 *Categoria:* Web
@@ -68,7 +68,7 @@ Em ambientes reais, isso pode dar acesso a credenciais válidas, rotas de APIs, 
 ---
 
 <p align="center">
-  <a href="../Natas00-01/Readme-BR.md">⬅️ Level 00–01</a> • 
-  <a href="../Natas02-03/Readme-BR.md">Level 02–03 ➡️</a>
+  <a href="../Natas01/Readme-BR.md">⬅️ Level 00–01</a> • 
+  <a href="../Natas03/Readme-BR.md">Level 02–03 ➡️</a>
 </p>
 

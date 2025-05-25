@@ -1,4 +1,4 @@
-# 🕵️ Natas - Level 01-02 (🇺🇸 English)  
+# 🕵️ Natas - Level 02 (🇺🇸 English)  
 *Date:* 05/22/2025  
 *Difficulty:* Easy  
 *Category:* Web
@@ -68,7 +68,7 @@ It is crucial to properly configure access permissions and avoid publishing inte
 ---
 
 <p align="center">
-  <a href="../Natas00-01/Readme-US.md">⬅️ Level 00–01</a> • 
-  <a href="../Natas02-03/Readme-US.md">Level 02–03 ➡️</a>
+  <a href="../Natas01/Readme-US.md">⬅️ Level 00–01</a> • 
+  <a href="../Natas03/Readme-US.md">Level 02–03 ➡️</a>
 </p>
 

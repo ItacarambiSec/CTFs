@@ -1,4 +1,4 @@
-# 🕵️ Natas - Level 06–07 (🇺🇸 English)  
+# 🕵️ Natas - Level 07 (🇺🇸 English)  
 *Date:* 2025-05-24  
 *Difficulty:* Easy  
 *Category:* Web
@@ -74,5 +74,5 @@ To prevent this:
 
 ---
 
-<p align="center"> <a href="../Natas05-06/Readme-US.md">⬅️ Previous</a> • <a href="../Natas07-08/Readme-US.md">Next ➡️</a> </p>
+<p align="center"> <a href="../Natas06/Readme-US.md">⬅️ Previous</a> • <a href="../Natas08/Readme-US.md">Next ➡️</a> </p>
 

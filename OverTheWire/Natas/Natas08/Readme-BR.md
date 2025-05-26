@@ -25,19 +25,22 @@ Acessar `http://natas8.natas.labs.overthewire.org`, identificar e decodificar a 
 function encodeSecret($secret) {
     return bin2hex(strrev(base64_encode($secret))); }
 ```
-  
--
+- Isso indica que a verificação é feita comparando a versão codificada do valor inserido com $encodedSecret. 
 -
 
 ---
 
 ## 🧱 Etapas
 
-1.
-2.
-3.
-4.
-5.
+1. Acessamos o link index-source.html e analisamos o código PHP.   
+2. Identificamos que o valor esperado é a saída da função encodeSecret().   
+3. **Com base na lógica da função (base64 → reverse → bin2hex), criamos um script auxiliar para realizar o processo reverso. **
+4. O script secret_tool.php foi desenvolvido e disponibilizado neste repositório:   
+`/Projects/By_CTFs/OverTheWire/Natas/secret_tool.php`
+5. Executamos o comando:
+```bash
+php secret_tool.php decode 3d3d516343746d4d6d6c315669563362
+```
 
 ---
 

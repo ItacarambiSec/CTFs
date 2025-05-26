@@ -34,7 +34,7 @@ Access `http://natas8.natas.labs.overthewire.org`, identify and decode the corre
 1. Accessed the index-source.html file and analyzed the PHP code.   
 2. Identified that the expected value is the result of the encodeSecret() function.   
 3. Based on the function logic (base64 → reverse → bin2hex), we created a helper script to reverse the process.   
-4. The script natas08_encoder_decoder.php was developed and made available here:
+4. The script natas08_encoder_decoder.php was developed and made available here:   
 [natas08_encoder_decoder.php](https://github.com/ItacarambiSec/Projects/blob/main/Ctf-scripts/Overthewire_natas/natas08_encoder_decoder.md)
 5. We executed the command:
 ```bash

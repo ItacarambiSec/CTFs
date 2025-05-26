@@ -19,7 +19,7 @@ Acessar `http://natas8.natas.labs.overthewire.org`, identificar e decodificar a 
 - Acessando esse arquivo, obtemos o código-fonte PHP utilizado pelo backend. Lá, encontramos uma variável codificada:   
  `$encodedSecret = "3d3d516343746d4d6d6c315669563362";`
 - E uma função de codificação personalizada:
-```html
+```
 function encodeSecret($secret) {
     return bin2hex(strrev(base64_encode($secret)));
 }

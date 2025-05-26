@@ -44,7 +44,7 @@ php secret_tool.php decode 3d3d516343746d4d6d6c315669563362
 ```bash
 oubWYf2kBq
 ```
-7. Ao inserimos esse valor no campo de input da página e clicarmos em "Submit", a resposta foi:
+7. Ao inserimos esse valor no campo de input da página e clicarmos em "Submit", a resposta foi:   
 `Access granted. The password for natas9 is ZE1ck82lmdGIoErlhQgWND6j2Wzz6b6t`
 
 ---

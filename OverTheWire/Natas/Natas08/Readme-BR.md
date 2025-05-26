@@ -23,8 +23,7 @@ Acessar `http://natas8.natas.labs.overthewire.org`, identificar e decodificar a 
 - E uma função de codificação personalizada:
 ```php
 function encodeSecret($secret) {
-    return bin2hex(strrev(base64_encode($secret)));
-}
+    return bin2hex(strrev(base64_encode($secret))); }
 ```
   
 -

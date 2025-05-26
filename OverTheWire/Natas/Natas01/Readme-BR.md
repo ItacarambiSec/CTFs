@@ -54,15 +54,4 @@ Qualquer usuário pode inspecionar o código-fonte e recuperar dados expostos, c
 
 ---
 
-## 📎 Scripts desenvolvidos
-
-Este nível serviu como base para a criação de um script que automatiza a geração dos diretórios dos próximos níveis (`Natas01-02` até `Natas33-34`), cada um contendo seus arquivos `Readme-BR.md` e `Readme-US.md`.
-
-O script foi criado com o objetivo de manter a organização, padronização e produtividade durante a documentação.  
-Ele pode ser visualizado e reutilizado dentro desta pasta:
-  
-📁 `CTFs/OverTheWire/Natas/Natas00-01/criar_niveis_natas.sh`
-
----
-
 <p align="center"> <a href="../Natas00/Readme-BR.md">⬅️ Anterior</a> • <a href="../Natas02/Readme-BR.md">Proximo ➡️</a> </p>

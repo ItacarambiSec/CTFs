@@ -90,4 +90,4 @@ This utility can be reused in other levels that use similar encoding logic.
 
 ---
 
-<p align="center"> <a href="../Natas07/Readme.md">⬅️ Previous</a> • <a href="../Natas09/Readme.md">Next ➡️</a> </p>
+<p align="center"> <a href="../Natas07/Readme.md">⬅️ Previous Level</a> • <a href="../Natas09/Readme.md">Next Level ➡️</a> </p> 

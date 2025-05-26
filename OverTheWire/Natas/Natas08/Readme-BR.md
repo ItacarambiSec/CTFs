@@ -13,7 +13,7 @@ Acessar `http://natas8.natas.labs.overthewire.org`, identificar e decodificar a 
 
 ## 🔎 Análise
 
-- Ao acessarmos o site, temos novamente um campo de input interativo que espera um **segredo**.
+- Ao acessarmos o site, temos um campo de input interativo que espera um **segredo**.
 - Inspecionando o código-fonte da página, encontramos um link chamativo:
 ```html
   <a href="index-source.html">
@@ -41,40 +41,52 @@ function encodeSecret($secret) {
 ```bash
 php secret_tool.php decode 3d3d516343746d4d6d6c315669563362
 ```
+6. O resultado foi:
+```bash
+oubWYf2kBq
+```
+7. Ao inserimos esse valor no campo de input da página e clicarmos em "Submit", a resposta foi:
+`Access granted. The password for natas9 is ZE1ck82lmdGIoErlhQgWND6j2Wzz6b6t`
 
 ---
 
 ## 🔑 Senha Encontrada
 
 ```
-
-
+ZE1ck82lmdGIoErlhQgWND6j2Wzz6b6t
 ```
 
 ---
 
 ## ✅ Conclusão
 
-
+Este nível exige que compreendamos e revertamos uma função de codificação personalizada.
+Em testes de segurança reais, esse tipo de desafio é comum ao se deparar com rotinas proprietárias de ofuscação ou transformação de dados.
+Reverter esse processo com um script auxiliar demonstrou ser a abordagem mais eficiente.
 
 ---
 
 ## 🧪 Comandos Utilizados
 
-
+php secret_tool.php decode 3d3d516343746d4d6d6c315669563362
 
 ---
 
 ## 🧠 Observações
 
-
+Mesmo quando senhas não estão explícitas, é possível encontrá-las através da engenharia reversa de lógica de validação.
+Este nível destaca a importância de entender transformações como Base64, reversão de strings e codificações hexadecimais, além de reforçar o valor de scripts reutilizáveis durante desafios de exploração.
 
 ---
 
 ## 📎 Scripts desenvolvidos
 
+Para resolver esse nível, foi criado um script auxiliar:
 
+📄 /Projects/By_CTFs/OverTheWire/Natas/secret_tool.php
+
+Esse utilitário pode ser reaproveitado em outros níveis que utilizem codificações semelhantes.
 
 ---
 
-<p align="center"> <a href="../Natas07/Readme-BR.md">⬅️ Anterior</a> • <a href="../Natas09/Readme-BR.md">Proximo ➡️</a> </p>
+<p align="center"> <a href="../Natas07/Readme-BR.md">⬅️ Nível Anterior</a> • <a href="../Natas09/Readme-BR.md">Próximo Nível ➡️</a> </p>

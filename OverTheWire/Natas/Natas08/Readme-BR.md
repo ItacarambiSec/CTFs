@@ -78,6 +78,7 @@ Este nível destaca a importância de entender transformações como Base64, rev
 
 ---
 
+
 ## 📎 Scripts desenvolvidos
 
 Para resolver esse nível, foi criado um script auxiliar:

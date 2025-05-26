@@ -34,7 +34,7 @@ function encodeSecret($secret) {
 1. Acessamos o link index-source.html e analisamos o código PHP.   
 2. Identificamos que o valor esperado é a saída da função encodeSecret().   
 3. **Com base na lógica da função (base64 → reverse → bin2hex), criamos um script auxiliar para realizar o processo reverso. **
-4. O script natas08_encoder_decoder.php foi desenvolvido e disponibilizado neste repositório:
+4. O script natas08_encoder_decoder.php foi desenvolvido e disponibilizado aqui:   
 [natas08_encoder_decoder.php](https://github.com/ItacarambiSec/Projects/blob/main/Ctf-scripts/Overthewire_natas/natas08_encoder_decoder.md)
 6. Executamos o comando:
 ```bash

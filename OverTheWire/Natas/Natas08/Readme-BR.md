@@ -34,11 +34,11 @@ function encodeSecret($secret) {
 1. Acessamos o link index-source.html e analisamos o código PHP.   
 2. Identificamos que o valor esperado é a saída da função encodeSecret().   
 3. **Com base na lógica da função (base64 → reverse → bin2hex), criamos um script auxiliar para realizar o processo reverso. **
-4. O script secret_tool.php foi desenvolvido e disponibilizado neste repositório:   
-`/Projects/By_CTFs/OverTheWire/Natas/secret_tool.php`
-5. Executamos o comando:
+4. O script natas08_encoder_decoder.php foi desenvolvido e disponibilizado neste repositório:
+[natas08_encoder_decoder.php](https://github.com/ItacarambiSec/Projects/blob/main/Ctf-scripts/Overthewire_natas/natas08_encoder_decoder.md)
+6. Executamos o comando:
 ```bash
-php secret_tool.php decode 3d3d516343746d4d6d6c315669563362
+php natas08_encoder_decoder.php decode 3d3d516343746d4d6d6c315669563362
 ```
 6. O resultado foi:
 ```bash
@@ -67,7 +67,7 @@ Reverter esse processo com um script auxiliar demonstrou ser a abordagem mais ef
 
 ## 🧪 Comandos Utilizados
 ```bash
-php secret_tool.php decode 3d3d516343746d4d6d6c315669563362
+php natas08_encoder_decoder.php decode 3d3d516343746d4d6d6c315669563362
 ```
 ---
 
@@ -82,7 +82,7 @@ Este nível destaca a importância de entender transformações como Base64, rev
 
 Para resolver esse nível, foi criado um script auxiliar:
 
-📄 /Projects/By_CTFs/OverTheWire/Natas/secret_tool.php
+[natas08_encoder_decoder.php](https://github.com/ItacarambiSec/Projects/blob/main/Ctf-scripts/Overthewire_natas/natas08_encoder_decoder.md)
 
 Esse utilitário pode ser reaproveitado em outros níveis que utilizem codificações semelhantes.
 

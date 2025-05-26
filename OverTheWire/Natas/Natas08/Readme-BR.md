@@ -66,9 +66,9 @@ Reverter esse processo com um script auxiliar demonstrou ser a abordagem mais ef
 ---
 
 ## 🧪 Comandos Utilizados
-
+```bash
 php secret_tool.php decode 3d3d516343746d4d6d6c315669563362
-
+```
 ---
 
 ## 🧠 Observações

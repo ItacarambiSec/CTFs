@@ -66,10 +66,4 @@ Resources like these should be protected with proper authentication or access co
 
 ---
 
-<p align="center">
-  <a href="../Natas02/Readme.md">⬅️ Previous</a> • 
-  <a href="../Natas04/Readme.md">Next ➡️</a>
-</p>
-
-
 <p align="center"> <a href="../Natas02/Readme.md">⬅️ Previous</a> • <a href="../Natas04/Readme.md">Next ➡️</a> </p>

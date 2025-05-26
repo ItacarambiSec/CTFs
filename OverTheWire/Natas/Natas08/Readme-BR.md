@@ -26,7 +26,6 @@ function encodeSecret($secret) {
     return bin2hex(strrev(base64_encode($secret))); }
 ```
 - Isso indica que a verificação é feita comparando a versão codificada do valor inserido com $encodedSecret. 
--
 
 ---
 

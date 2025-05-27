@@ -62,7 +62,7 @@ The command injection vulnerability was successfully exploited, allowing the exe
 
 ## 🧪 Commands Used
 
-`test; pwd` 
+`test; pwd`   
 `test; cat /etc/natas_webpass/natas9`
 
 ---

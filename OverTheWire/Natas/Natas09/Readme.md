@@ -38,15 +38,10 @@ passthru("grep -i $key dictionary.txt");
 ## 🧱 Steps
 
 1. Access the Application: Navigate to `http://natas9.natas.labs.overthewire.org/`.
-
 2. Identify the Search Field: Locate the "Find words containing:" input and the search button.
-
 3. Analyze Behavior: Test the search with a common term such as "test" and observe the output.
-
 4. Inspect Source Code: View the page's source code to find the PHP script and identify the `passthru()` function and input handling.
-
 5. Test Command Injection: Enter `test; pwd` in the search field to verify the execution of arbitrary commands and confirm the vulnerability.
-
 6. Obtain the Password: Use command injection to read the Natas10 password file by entering `test; cat /etc/natas_webpass/natas9` in the search field.
 
 ---

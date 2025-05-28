@@ -42,7 +42,7 @@ if($key != "") {
 3. Analisar o Comportamento: Testar a busca com um termo comum como "teste" e observar a saída.   
 4. Inspecionar o Código-Fonte: Visualizar o código-fonte da página para encontrar o script PHP e identificar a função `passthru()` e o tratamento da entrada.   
 5. Testar a Injeção de Comando: Inserir `teste; pwd` no campo de busca para verificar a execução de comandos arbitrários e confirmar a vulnerabilidade.
-6. Obter a Senha: Utilizar a injeção de comando para ler o arquivo de senha do Natas10, inserindo `teste; cat /etc/natas_webpass/natas9` no campo de busca.   
+6. Obter a Senha: Utilizar a injeção de comando para ler o arquivo de senha do Natas10, inserindo `teste; cat /etc/natas_webpass/natas10` no campo de busca.   
 
 ---
 
@@ -63,7 +63,7 @@ A vulnerabilidade de injeção de comando foi explorada com sucesso, permitindo 
 ## 🧪 Comandos Utilizados
 
 `teste; pwd`  
-`teste; cat /etc/natas_webpass/natas9`
+`teste; cat /etc/natas_webpass/natas10`
 
 ---
 

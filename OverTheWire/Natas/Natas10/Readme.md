@@ -48,6 +48,8 @@ print "Input contains an illegal character!"; } else {
 UJdqkK1pTu6VLt9UHWAgRZz6sVUZ3lEk
 ```
 
+---
+
 ## ✅ Conclusion
 
 The exploit was successful because the PHP filter was an incomplete blacklist, targeting only a few characters (; and |) and failing to consider other command delimiters such as the newline character (\n). The operating system shell interprets \n as a command separator, allowing the execution of a second injected command, even after PHP decodes the URL. This case reinforces the importance of using whitelists (allowing only what is explicitly safe) and correctly escaping arguments passed to system commands.

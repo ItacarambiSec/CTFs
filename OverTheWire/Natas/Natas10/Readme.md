@@ -1,5 +1,5 @@
 # 🕵️ Natas - Level 10 (🇺🇸 English)  
-*Date: 05/27/2025* 
+*Date: 2025-05-27* 
 *Difficulty: Easy* 
 *Category: Web* 
 

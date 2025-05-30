@@ -58,7 +58,7 @@ A exploração foi bem-sucedida porque o filtro PHP era uma blacklist incompleta
 
 ## 🧪 Comandos Utilizados
 
-cat /etc/natas_webpass/natas11: Comando injetado para ler o arquivo da senha. ( Sem URL-encoding)
+`cat /etc/natas_webpass/natas11`: Comando injetado para ler o arquivo da senha. ( Sem URL-encoding)
 
 ---
 

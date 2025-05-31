@@ -23,17 +23,17 @@ The objective of this challenge is to exploit the XOR encryption vulnerability u
 
 ## 🧱 Steps
 
-1. **Access the Application:** Navigate to `http://natas11.natas.labs.overthewire.org/`.
-2. **Analyze the Cookie:** Inspect the browser cookies and identify the cookie named "data". Copy the value of this cookie.
-3. **Base64 Decode:** Use a Base64 decoder (such as the `base64 -d` command on Linux or an online decoder) to decode the value of the "data" cookie.
-4. **Known Plaintext Attack:**
-    - Identify the known plaintext (the default values): `{"showpassword":"no","bgcolor":"#ffffff"}`.
-    - Perform the byte-by-byte XOR operation between the known plaintext and the ciphertext (result of the Base64 decoding) to discover the XOR key. We use a Python script to automate this step. 
-5. **Identify XOR Key:** The script revealed that the XOR key used is `eDWo`.  
-6. **Create Malicious Payload:** Construct a Python dictionary representing the desired data, with the `showpassword` key set to `"yes"` and `bgcolor` holding a valid hexadecimal value (e.g. `#ffffff`).  
-7. **Encode to JSON:** Convert the Python dictionary to a JSON string using `json.dumps()`.  
-8. **Encrypt with XOR:** Apply the byte-by-byte XOR operation between the JSON string and the XOR key (`eDWo`). We implemented this logic in a Python script.  
-9. **Encode to Base64:** Encode the result of the previous step to Base64 using `base64.b64encode()`. 10. **Replace the Cookie:** Use your browser's developer tools (or a proxy like Burp Suite) to replace the "data" cookie value with the value generated in the previous step.  
+1. **Access the Application:** Navigate to `http://natas11.natas.labs.overthewire.org/`.  
+2. **Analyze the Cookie:** Inspect the browser cookies and identify the cookie named "data". Copy the value of this cookie.  
+3. **Base64 Decode:** Use a Base64 decoder (such as the `base64 -d` command on Linux or an online decoder) to decode the value of the "data" cookie.  
+4. **Known Plaintext Attack:**  
+- Identify the known plaintext (the default values): `{"showpassword":"no","bgcolor":"#ffffff"}`.   
+- Perform the byte-by-byte XOR operation between the known plaintext and the ciphertext (result of the Base64 decoding) to discover the XOR key. We use a Python script to automate this step.   
+6. **Identify XOR Key:** The script revealed that the XOR key used is `eDWo`.  
+7. **Create Malicious Payload:** Construct a Python dictionary representing the desired data, with the `showpassword` key set to `"yes"` and `bgcolor` holding a valid hexadecimal value (e.g. `#ffffff`).  
+8. **Encode to JSON:** Convert the Python dictionary to a JSON string using `json.dumps()`.  
+9. **Encrypt with XOR:** Apply the byte-by-byte XOR operation between the JSON string and the XOR key (`eDWo`). We implemented this logic in a Python script.  
+10. **Encode to Base64:** Encode the result of the previous step to Base64 using `base64.b64encode()`. 10. **Replace the Cookie:** Use your browser's developer tools (or a proxy like Burp Suite) to replace the "data" cookie value with the value generated in the previous step.  
 11. **Reload the Page:** Reload the page so that the server can read the modified cookie.  
 
 ---

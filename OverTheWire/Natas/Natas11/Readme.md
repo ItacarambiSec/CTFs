@@ -27,8 +27,8 @@ The objective of this challenge is to exploit the XOR encryption vulnerability u
 2. **Analyze the Cookie:** Inspect the browser cookies and identify the cookie named "data". Copy the value of this cookie.
 3. **Base64 Decode:** Use a Base64 decoder (such as the `base64 -d` command on Linux or an online decoder) to decode the value of the "data" cookie.
 4. **Known Plaintext Attack:**
-- Identify the known plaintext (the default values): `{"showpassword":"no","bgcolor":"#ffffff"}`.
-- Perform the byte-by-byte XOR operation between the known plaintext and the ciphertext (result of the Base64 decoding) to discover the XOR key. We use a Python script to automate this step. 
+    - Identify the known plaintext (the default values): `{"showpassword":"no","bgcolor":"#ffffff"}`.
+    - Perform the byte-by-byte XOR operation between the known plaintext and the ciphertext (result of the Base64 decoding) to discover the XOR key. We use a Python script to automate this step. 
 5. **Identify XOR Key:** The script revealed that the XOR key used is `eDWo`.  
 6. **Create Malicious Payload:** Construct a Python dictionary representing the desired data, with the `showpassword` key set to `"yes"` and `bgcolor` holding a valid hexadecimal value (e.g. `#ffffff`).  
 7. **Encode to JSON:** Convert the Python dictionary to a JSON string using `json.dumps()`.  

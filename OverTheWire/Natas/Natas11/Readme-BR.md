@@ -1,7 +1,7 @@
 # 🕵️ Natas - Nível 11 (🇧🇷 Português)
-*Data:* 30/05/2025
-*Dificuldade:* Médio
-*Categoria:* Web
+*Data:* 30/05/2025  
+*Dificuldade:* Médio  
+*Categoria:* Web  
 
 ---
 

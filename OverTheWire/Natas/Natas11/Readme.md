@@ -22,13 +22,13 @@ The objective of this challenge is to exploit the XOR encryption vulnerability u
 ---
 
 ## 🧱 Steps
-1.  **Acessar a Aplicação:** Navegar até `http://natas11.natas.labs.overthewire.org/`.  
-2.  **Analisar o Cookie:** Inspecionar os cookies do navegador e identificar o cookie chamado "data". Copiar o valor deste cookie.  
-3.  **Decodificar Base64:** Utilizar um decodificador Base64 (como o comando `base64 -d` no Linux ou um decodificador online)  
-para decodificar o valor do cookie "data".  
-4.  **Ataque de Texto Plano Conhecido:**   
-    - Identificar o texto plano conhecido (os valores padrão): `{"showpassword":"no","bgcolor":"#ffffff"}`.  
-    - Realizar a operação XOR byte a byte entre o texto plano conhecido e o texto cifrado (resultado da decodificação Base64) para descobrir a chave XOR. Utilizamos um script Python para automatizar essa etapa.  
+
+1. **Access the Application:** Navigate to `http://natas11.natas.labs.overthewire.org/`.
+2. **Analyze the Cookie:** Inspect the browser cookies and identify the cookie named "data". Copy the value of this cookie.
+3. **Base64 Decode:** Use a Base64 decoder (such as the `base64 -d` command on Linux or an online decoder) to decode the value of the "data" cookie.
+4. **Known Plaintext Attack:**
+- Identify the known plaintext (the default values): `{"showpassword":"no","bgcolor":"#ffffff"}`.
+- Perform the byte-by-byte XOR operation between the known plaintext and the ciphertext (result of the Base64 decoding) to discover the XOR key. We use a Python script to automate this step. 
 5. **Identify XOR Key:** The script revealed that the XOR key used is `eDWo`.  
 6. **Create Malicious Payload:** Construct a Python dictionary representing the desired data, with the `showpassword` key set to `"yes"` and `bgcolor` holding a valid hexadecimal value (e.g. `#ffffff`).  
 7. **Encode to JSON:** Convert the Python dictionary to a JSON string using `json.dumps()`.  

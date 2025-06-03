@@ -56,8 +56,8 @@ The XOR encryption vulnerability with a fixed key allowed a known-plaintext atta
 
 ```bash
 
-python [natas11_discover_key.py] ()  
-python [natas11_manipulate_cookie.py] ()  
+python natas11_discover_key.py
+python natas11_manipulate_cookie.py
 ```
 
 ---
@@ -72,8 +72,8 @@ python [natas11_manipulate_cookie.py] ()
 
 ## 📎 Scripts Developed
 
-`natas11_discover_key.py`: Python script used to discover the XOR key via known-plaintext attack.  
-`natas11_manipulate_cookie.py`: Python script used to generate the manipulated "data" cookie value with `showpassword` set to "yes".  
+- [natas11_discover_key.py](https://github.com/ItacarambiSec/Projects/blob/main/Ctf-scripts/Overthewire_natas/natas11_discover_key.md): Python script used to discover the XOR key via known-plaintext attack.  
+- [natas11_manipulate_cookie.py](https://github.com/ItacarambiSec/Projects/blob/main/Ctf-scripts/Overthewire_natas/natas11_manipulate_cookie.md): Python script used to generate the manipulated "data" cookie value with `showpassword` set to "yes".  
 
 ---
 

@@ -74,8 +74,8 @@ python [natas11_manipulate_cookie.py] ()
 
 ## 📎 Scripts desenvolvidos
 
-`natas11_discover_key.py`: Script Python utilizado para descobrir a chave XOR através do ataque de texto plano conhecido. 
-`natas11_manipulate_cookie.py`: Script Python utilizado para gerar o valor do cookie "data" manipulado com `showpassword` definido como "yes".
+- [natas11_discover_key.py](https://github.com/ItacarambiSec/Projects/blob/main/Ctf-scripts/Overthewire_natas/natas11_discover_key.md): Script Python utilizado para descobrir a chave XOR através do ataque de texto plano conhecido. 
+- [natas11_manipulate_cookie.py](https://github.com/ItacarambiSec/Projects/blob/main/Ctf-scripts/Overthewire_natas/natas11_manipulate_cookie.md): Script Python utilizado para gerar o valor do cookie "data" manipulado com `showpassword` definido como "yes".
 
 ---
 

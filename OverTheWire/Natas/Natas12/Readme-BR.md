@@ -80,7 +80,7 @@ Obter senha do Natas13:
 
 ## 📎 Scripts desenvolvidos
 
-[bypass.php](): Um shell PHP simples (`<?php system($_GET['cmd']); ?>`) utilizado para a execução remota de comandos.
+[bypass.php](https://github.com/ItacarambiSec/Projects/blob/main/Ctf-scripts/Overthewire_natas/bypass.md): Um shell PHP simples (`<?php system($_GET['cmd']); ?>`) utilizado para a execução remota de comandos.
 
 ---
 

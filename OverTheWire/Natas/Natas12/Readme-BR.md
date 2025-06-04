@@ -70,10 +70,10 @@ Obter senha do Natas13:
 
 ## 🧠 Observações
 
-Validação Server-Side é Crucial: Nunca confie em validações feitas apenas no lado do cliente (JavaScript, campos HTML ocultos). Sempre revalide todas as entradas no lado do servidor.
-Whitelist para Extensões e Tipos MIME: Em vez de blacklists, use whitelists (listas de permissão) para extensões de arquivos e tipos MIME permitidos para upload.
-Renomeação Segura de Arquivos: Ao renomear arquivos, use um nome gerado aleatoriamente e uma extensão validada no servidor, sem permitir qualquer entrada do usuário no nome ou extensão final.
-Isolamento de Uploads: Arquivos enviados por usuários devem ser armazenados em um diretório fora da raiz web ou configurado para não permitir execução de scripts.
+- Validação Server-Side é Crucial: Nunca confie em validações feitas apenas no lado do cliente (JavaScript, campos HTML ocultos). Sempre revalide todas as entradas no lado do servidor.  
+- Whitelist para Extensões e Tipos MIME: Em vez de blacklists, use whitelists (listas de permissão) para extensões de arquivos e tipos MIME permitidos para upload.  
+- Renomeação Segura de Arquivos: Ao renomear arquivos, use um nome gerado aleatoriamente e uma extensão validada no servidor, sem permitir qualquer entrada do usuário no nome ou extensão final.  
+- Isolamento de Uploads: Arquivos enviados por usuários devem ser armazenados em um diretório fora da raiz web ou configurado para não permitir execução de scripts.  
 
 
 ---

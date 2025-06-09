@@ -1,6 +1,6 @@
 # 🕵️ Natas - Level 13 (🇺🇸 English)  
 *Date: 2025-06-04*  
-*Difficulty: Intermediate*  
+*Difficulty: Medium*  
 *Category: Web*  
 
 ---

@@ -1,6 +1,6 @@
 # 🕵️ Natas - Level 11 (🇺🇸 English)  
 *Date:* 2025-05-30  
-*Difficulty:* Intermediate   
+*Difficulty:* Medium   
 *Category:* Web   
 
 ---
